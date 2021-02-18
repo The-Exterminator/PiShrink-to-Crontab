@@ -1,7 +1,8 @@
 # PiShrink-to-crontab
 
 - **1. Download both .sh files (You can skip 2a. and 3a.)** <br>
-  - 1a . ``` sudo git clone https://github.com/The-Exterminator/PiShrink-to-Crontab.git ``` <br>
+  - 1a. ``` sudo git clone https://github.com/The-Exterminator/PiShrink-to-Crontab.git ``` <br>
+  - 2b. ``` cd PiShrink-to-Crontab/ ``` <br>
 
 - **2. Download and install PiShrink** <br>
   - 2a. ``` sudo wget https://github.com/The-Exterminator/PiShrink-to-Crontab/blob/main/pishrink.sh ``` <br>
