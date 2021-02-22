@@ -6,12 +6,12 @@
 
 - **2. Download and install PiShrink** <br>
   - 2a. ``` sudo wget https://github.com/The-Exterminator/PiShrink-to-Crontab/blob/main/pishrink.sh ``` <br>
-  - 2b. ``` sudo mv /home/pi/pishrink.sh /usr/local/bin/ ``` <br>
+  - 2b. ``` sudo mv pishrink.sh /usr/local/bin/ ``` <br>
   - 2c. ``` sudo chmod +x /usr/local/bin/pishrink.sh ``` <br>
 
 - **3. Download and install Backup** <br>
   - 3a. ``` sudo wget https://github.com/The-Exterminator/PiShrink-to-Crontab/blob/main/Backup.sh ``` <br>
-  - 3b. ``` sudo mv /home/pi/Backup.sh /usr/local/bin/ ``` <br>
+  - 3b. ``` sudo mv Backup.sh /usr/local/bin/ ``` <br>
   - 3c. ``` sudo chmod +x /usr/local/bin/Backup.sh ``` <br>
 
 - **4. Change "BACKUP_PATH" and "BACKUP_NAME"** <br>
