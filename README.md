@@ -20,7 +20,7 @@
 - **5. chmod /YOU/BACKUP/FOLDER/** <br>
   - 5a. ``` chmod 755 /YOU/BACKUP/FOLDER/ ``` <br>
 
-- **6. sudo nano /etc/crontab **<br>
+- **6. sudo nano /etc/crontab** <br>
   Insert -> ``` 59 23 * * 1 root /usr/local/bin/Backup.sh ``` <br>
    **(Makes backup Monday at 23.59) Or look <a href="https://crontab.guru" target="_blank">here</a> and set your own crontab** <br>
 
