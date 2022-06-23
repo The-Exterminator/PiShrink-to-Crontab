@@ -5,14 +5,17 @@
   - 2b. ``` cd PiShrink-to-Crontab/ ``` <br>
 
 - **2. Install PiShrink** <br>
-  - 2a. ``` chmod +x pishrink.sh ``` <br>
-  - 2b. ``` sudo mv pishrink.sh /usr/local/bin/ ``` <br>
+  - 2a. ``` chmod +x SDpishrink.sh ``` <br>
+  - 2b. ``` chmod +x USBpishrink.sh ``` <br>
+  - 2c. ``` sudo mv SDpishrink.sh /usr/local/bin/ ``` <br>
+  - 2d. ``` sudo mv USBpishrink.sh /usr/local/bin/ ``` <br>
 
 - **3. Install Backup** <br>
   - 3a. ``` chmod +x Backup.sh ``` <br>
   - 3b. ``` sudo mv Backup.sh /usr/local/bin/ ``` <br>
 
-- **4. Change "BACKUP_PATH" and "BACKUP_NAME"** <br>
+- **4. Change ```BACKUP_PATH="/media/Backup```** <br>
+- **DO NOT CHANGE ```/$(get_codename)/${HOSTNAME}```** <br>
   - 4a. ``` nano /usr/local/bin/Backup.sh ``` <br>
 
 - **5. Delete folder** <br>
