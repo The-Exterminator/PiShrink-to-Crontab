@@ -1,5 +1,8 @@
 # PiShrink-to-crontab
 
+The first thing you need to do is install pv. <br>
+```sudo apt update && sudo apt install pv``` <br>
+
 - **1. Download .sh files** <br>
   - 1a. ``` git clone https://github.com/The-Exterminator/PiShrink-to-Crontab.git ``` <br>
   - 2b. ``` cd PiShrink-to-Crontab/ ``` <br>
