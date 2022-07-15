@@ -13,7 +13,7 @@ The first thing you need to do is install pv. <br>
   
 - **3. Change ```BACKUP_PATH="/media/Backup```** <br>
 - **DO NOT CHANGE ```/$(get_codename)/${HOSTNAME}```** <br>
-  - 3a. ``` nano /usr/local/bin/Backup.sh ``` <br>
+  - 3a. ``` sudo nano /usr/local/bin/Backup.sh ``` <br>
 
 - **4. Delete folder** <br>
   - 4a. ``` cd ``` <br>
